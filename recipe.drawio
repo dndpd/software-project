@@ -1,14 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T07:16:05.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TbiqCyus4ADw1YsVf5e0" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T07:16:38.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="K6a0F0qvx4OL35tatgVv" version="22.1.5" type="github">
   <diagram name="페이지-1" id="9jE9BsmCvOT8HA4ghK3p">
     <mxGraphModel dx="830" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XJMWt93YdSyoXjv1WJ4x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="XJMWt93YdSyoXjv1WJ4x-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="79.04347826086973" y="140" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-4" value="request recipe" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=20;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="770" height="400" as="geometry" />
         </mxCell>
@@ -38,14 +33,14 @@
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390.00043478260875" y="290" as="targetPoint" />
-            <mxPoint x="705.37" y="290" as="sourcePoint" />
+            <mxPoint x="404.63043478260875" y="260" as="targetPoint" />
+            <mxPoint x="720" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.003;exitY=0.601;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="39.72000000000003" y="298.4" as="sourcePoint" />
-            <mxPoint x="800" y="298" as="targetPoint" />
+            <mxPoint x="49.72000000000003" y="300.4" as="sourcePoint" />
+            <mxPoint x="810" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-29" value="[value == True]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -62,8 +57,8 @@
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-32" value="rqject recipe" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="399.5" y="320" as="sourcePoint" />
-            <mxPoint x="80" y="320" as="targetPoint" />
+            <mxPoint x="399.75" y="330" as="sourcePoint" />
+            <mxPoint x="80.25" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.052;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.096;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
