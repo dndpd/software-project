@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T07:09:14.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5QuPupew6v1ABB4u0zNL" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T07:12:27.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tCP_fS_fHdy7Pko4D8sY" version="22.1.5" type="github">
   <diagram name="페이지-1" id="9jE9BsmCvOT8HA4ghK3p">
     <mxGraphModel dx="830" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint x="399.5" y="171" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XJMWt93YdSyoXjv1WJ4x-8" value="request recipt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="XJMWt93YdSyoXjv1WJ4x-8" value="request recipe" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="140" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-15" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=20;" vertex="1" parent="1">
@@ -49,8 +49,26 @@
         </mxCell>
         <mxCell id="XJMWt93YdSyoXjv1WJ4x-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.003;exitY=0.601;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="39.72000000000003" y="280.4" as="sourcePoint" />
-            <mxPoint x="800" y="280" as="targetPoint" />
+            <mxPoint x="39.72000000000003" y="298.4" as="sourcePoint" />
+            <mxPoint x="800" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJMWt93YdSyoXjv1WJ4x-29" value="[value == True]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMWt93YdSyoXjv1WJ4x-30" value="[value == False]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMWt93YdSyoXjv1WJ4x-31" value="return recipe" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="399.5" y="269" as="sourcePoint" />
+            <mxPoint x="80" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJMWt93YdSyoXjv1WJ4x-32" value="rqject recipe" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="399.5" y="320" as="sourcePoint" />
+            <mxPoint x="80" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
