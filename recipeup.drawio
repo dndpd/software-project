@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T05:32:43.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="uwI-kkX3yCW3OWOEMz5-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T05:54:57.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-tulXw9trEY51ZLJpLOh" version="22.1.7" type="github">
   <diagram name="페이지-1" id="-_mSIeM0GcgLd6HTg1rb">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-1" value="Assistant" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-2" value="Store Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzBsiAJhkqI3F0lN4r8K-2">
+          <mxGeometry x="45" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-9" value="레시피&lt;br&gt;검토" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="nzBsiAJhkqI3F0lN4r8K-8" parent="nzBsiAJhkqI3F0lN4r8K-2" source="nzBsiAJhkqI3F0lN4r8K-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="90" />
+              <mxPoint x="-10" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-3" value="Franchise Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzBsiAJhkqI3F0lN4r8K-3">
+          <mxGeometry x="50" y="50" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-5" value="레시피 업데이트 요청&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="nzBsiAJhkqI3F0lN4r8K-4" parent="1" source="nzBsiAJhkqI3F0lN4r8K-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="nzBsiAJhkqI3F0lN4r8K-4" target="nzBsiAJhkqI3F0lN4r8K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-7" value="레시피 변경 확인" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nzBsiAJhkqI3F0lN4r8K-6">
+          <mxGeometry x="-0.0624" y="-4" relative="1" as="geometry">
+            <mxPoint x="-11" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzBsiAJhkqI3F0lN4r8K-10" value="레시피 변경 적용" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="nzBsiAJhkqI3F0lN4r8K-8" target="nzBsiAJhkqI3F0lN4r8K-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
